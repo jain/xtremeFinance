@@ -1,0 +1,117 @@
+# view AndroidManifest.xml #generated:82
+-keep class com.orange.xtreme.Deposits { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.orange.xtreme.Withdrawals { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.orange.xtreme.activities.Accounts { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.orange.xtreme.activities.CreateAccount { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.orange.xtreme.activities.DeleteAccounts { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.orange.xtreme.activities.GenReport { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.orange.xtreme.activities.History { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.orange.xtreme.activities.Login { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.orange.xtreme.activities.MailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.orange.xtreme.activities.Register { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.orange.xtreme.activities.Report { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.orange.xtreme.activities.TransactionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.orange.xtreme.activities.Welcome { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.orange.xtreme.support.Global { <init>(...); }
+
+# onClick res/layout/login.xml #generated:101
+-keepclassmembers class * { *** onCheckboxClicked(...); }
+
+# onClick res/layout/activity_mail.xml #generated:110
+# onClick res/layout/deleteview.xml #generated:40
+# onClick res/layout/history.xml #generated:72
+# onClick res/layout/login.xml #generated:121
+# onClick res/layout/loginsuccess.xml #generated:131
+# onClick res/layout/reports.xml #generated:77
+-keepclassmembers class * { *** onClickBack(...); }
+
+# onClick res/layout/createaccount.xml #generated:128
+# onClick res/layout/register.xml #generated:258
+-keepclassmembers class * { *** onClickCancel(...); }
+
+# onClick res/layout/accounts.xml #generated:32
+# onClick res/layout/accountsii.xml #generated:45
+# onClick res/layout/createaccount.xml #generated:139
+# onClick res/layout/register.xml #generated:247
+-keepclassmembers class * { *** onClickCreate(...); }
+
+# onClick res/layout/accounts.xml #generated:42
+# onClick res/layout/accountsii.xml #generated:56
+# onClick res/layout/deleteview.xml #generated:51
+-keepclassmembers class * { *** onClickDelete(...); }
+
+# onClick res/layout/loginsuccess.xml #generated:82
+-keepclassmembers class * { *** onClickDeposit(...); }
+
+# onClick res/layout/reports.xml #generated:25
+-keepclassmembers class * { *** onClickDeposits(...); }
+
+# onClick res/layout/welcome.xml #generated:97
+-keepclassmembers class * { *** onClickExit(...); }
+
+# onClick res/layout/welcome.xml #generated:79
+-keepclassmembers class * { *** onClickForgotPassword(...); }
+
+# onClick res/layout/accounts.xml #generated:61
+# onClick res/layout/accountsii.xml #generated:75
+-keepclassmembers class * { *** onClickGenReport(...); }
+
+# onClick res/layout/genreport.xml #generated:300
+-keepclassmembers class * { *** onClickGenerate(...); }
+
+# onClick res/layout/loginsuccess.xml #generated:120
+-keepclassmembers class * { *** onClickHistory(...); }
+
+# onClick res/layout/login.xml #generated:141
+# onClick res/layout/welcome.xml #generated:25
+-keepclassmembers class * { *** onClickLogin(...); }
+
+# onClick res/layout/accounts.xml #generated:71
+# onClick res/layout/accountsii.xml #generated:86
+-keepclassmembers class * { *** onClickLogout(...); }
+
+# onClick res/layout/welcome.xml #generated:61
+-keepclassmembers class * { *** onClickPlayTetris(...); }
+
+# onClick res/layout/login.xml #generated:131
+# onClick res/layout/welcome.xml #generated:43
+-keepclassmembers class * { *** onClickRegister(...); }
+
+# onClick res/layout/genreport.xml #generated:289
+-keepclassmembers class * { *** onClickReturn(...); }
+
+# onClick res/layout/activity_mail.xml #generated:120
+-keepclassmembers class * { *** onClickSend(...); }
+
+# onClick res/layout/loginsuccess.xml #generated:93
+-keepclassmembers class * { *** onClickWithdraw(...); }
+
+# onClick res/layout/reports.xml #generated:43
+-keepclassmembers class * { *** onClickWithdrawals(...); }
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFA500"
+              android:orientation="vertical" >
+
+    <TextView
+            android:layout_weight="8"
+            android:id="@+id/registerAttempt"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:gravity="center"
+            android:text="Select Your Account!"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="20"
+            android:gravity="bottom|center"
+            android:orientation="vertical"
+            android:id="@+id/accountArray" />
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="3"
+            android:gravity="bottom|center"
+            android:orientation="horizontal" >
+
+        <Button
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Create"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                android:onClick="onClickCreate"
+                android:textStyle="bold" />
+        <Button
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Delete"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                android:onClick="onClickDelete"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="3"
+            android:gravity="bottom|center"
+            android:orientation="horizontal" >
+
+        <Button
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="GenReport"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                android:onClick="onClickGenReport"
+                android:textStyle="bold" />
+        <Button
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Logout"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                android:onClick="onClickLogout"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

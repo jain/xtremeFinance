@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.orange.xtreme"
+    android:versionCode="1"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.orange.xtreme.support.Global"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.orange.xtreme.activities.Welcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.activities.Login"
+            android:label="@string/title_activity_login"
+            android:parentActivityName="android.app.Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.Activity" />
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.activities.Register"
+            android:label="@string/title_activity_register"
+            android:parentActivityName="android.app.Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.Activity" />
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.activities.Accounts"
+            android:label="@string/title_activity_accounts" >
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.activities.DeleteAccounts"
+            android:label="@string/title_activity_delete_accounts" >
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.activities.TransactionActivity"
+            android:label="@string/title_activity_transaction" >
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.activities.History"
+            android:label="@string/title_activity_history" >
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.activities.GenReport"
+            android:label="@string/title_activity_gen_report" >
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.activities.CreateAccount"
+            android:label="@string/title_activity_create_account" >
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.activities.Report"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.activities.MailActivity"
+            android:label="@string/title_activity_mail" >
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.Withdrawals"
+            android:label="@string/title_activity_withdrawals" >
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity
+            android:name="com.orange.xtreme.Deposits"
+            android:label="@string/title_activity_deposits" >
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+    </application>
+
+</manifest>

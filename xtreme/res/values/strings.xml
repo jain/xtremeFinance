@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XtremeFinance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_accounts">Accounts</string>
+    <string name="title_activity_delete_accounts">DeleteAccounts</string>
+    <string name="title_activity_transaction">TransactionActivity</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_gen_report">GenReport</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="title_activity_report">Report</string>
+    <string name="title_activity_mail">MailActivity</string>
+    <string name="title_activity_withdrawals">Withdrawals</string>
+    <string name="title_activity_deposits">Deposits</string>
+
+</resources>

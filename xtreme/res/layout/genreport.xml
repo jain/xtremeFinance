@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFA500"
+              android:orientation="vertical" >
+
+    <TextView
+            android:layout_weight="20"
+            android:id="@+id/AccountText"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:gravity="center"
+            android:text="Specify Dates!"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="5"
+            android:gravity="bottom|center"
+            android:orientation="horizontal" >
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="5"
+            android:gravity="bottom|center"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textStyle="bold" />
+        <TextView
+                android:layout_weight="0.6"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"
+                android:text="MM"
+                android:textStyle="bold" />
+        <TextView
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="/"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <TextView
+                android:layout_weight="0.6"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"
+                android:text="DD"
+                android:textStyle="bold" />
+        <TextView
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="/"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <TextView
+                android:layout_weight="1.4"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"
+                android:text="YYYY"
+                android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="9"
+            android:gravity="bottom|center"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="Start Date"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <EditText
+                android:layout_weight="0.6"
+                android:id="@+id/date"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <TextView
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="/"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <EditText
+                android:layout_weight="0.6"
+                android:id="@+id/date2"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <TextView
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="/"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <EditText
+                android:layout_weight="1.4"
+                android:id="@+id/date3"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="5"
+            android:gravity="bottom|center"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textStyle="bold" />
+        <TextView
+                android:layout_weight="0.6"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"
+                android:text="MM"
+                android:textStyle="bold" />
+        <TextView
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="/"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <TextView
+                android:layout_weight="0.6"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"
+                android:text="DD"
+                android:textStyle="bold" />
+        <TextView
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="/"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <TextView
+                android:layout_weight="1.4"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"
+                android:text="YYYY"
+                android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="9"
+            android:gravity="bottom|center"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="End Date"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <EditText
+                android:layout_weight="0.6"
+                android:id="@+id/date4"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <TextView
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="/"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <EditText
+                android:layout_weight="0.6"
+                android:id="@+id/date5"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <TextView
+                android:gravity="center"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:text="/"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        <EditText
+                android:layout_weight="1.4"	
+                android:id="@+id/date6"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="9"
+            android:gravity="bottom|center"
+            android:orientation="horizontal" >
+
+        <Button
+                android:gravity="center"
+                android:onClick="onClickReturn"
+                android:id="@+id/back"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Return"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        <Button
+                android:gravity="center"
+                android:onClick="onClickGenerate"
+                android:id="@+id/generate"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Generate"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

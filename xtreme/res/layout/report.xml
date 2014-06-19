@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA500"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/init"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="9"
+        android:gravity="center"
+        android:text="Report"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="9"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/date"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:gravity="top"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:gravity="top|center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"
+
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+            <LinearLayout
+                android:id="@+id/amount"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:gravity="top"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:text="Amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:gravity="top|center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+                        <View style="@style/Divider" />
+
+            <LinearLayout
+                android:id="@+id/account"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:gravity="top"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:text="Account"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:gravity="top|center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="9"
+            android:gravity="bottom|center"
+            android:orientation="horizontal" >
+
+        <Button
+                android:gravity="center"
+                android:id="@+id/back"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Return"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        <Button
+                android:gravity="center"
+                android:id="@+id/logout"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Logout"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
